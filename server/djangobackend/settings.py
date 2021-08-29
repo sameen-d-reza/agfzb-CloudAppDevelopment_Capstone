@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["harper7e.mybluemix.net"]
+ALLOWED_HOSTS = ["localhost"]
 
 
 # Application definition
