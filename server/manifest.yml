@@ -1,11 +1,11 @@
   applications:
   - name: dealerreiew
     routes:
-      - route: harper7e.mybluemix.net
+      - route: car-harper-7e.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: dealerreiew-nginx
     routes:
-      - route: harper7e.mybluemix.net/static
+      - route: car-harper-7e.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
